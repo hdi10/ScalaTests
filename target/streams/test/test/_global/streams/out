@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(test.RationalTest, sbt.ForkMain$SubclassFingerscan@1134affc, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRationalTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Rational Inititalisation 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Rational Inititalisation 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test requirement (denominator!=0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- numbers below 10 that are multiplies  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected 23, but got "33" (RationalTest.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- sqrt im nährungsverfahren selbst definert 1. Variante *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected 6, but got "6.000000005333189" (RationalTest.scala:61)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- sqrt im nährungsverfahren selbst definert 2. Variante nested *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected 6, but got "6.000000005333189" (RationalTest.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- sqrt im nährungsverfahren selbst definert 3. und effizienteste Variante *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected 3, but got "3.000000001396984" (RationalTest.scala:106)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- is this number a prime number?[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- calculation prime of the 1001 prime number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Fibonacci Zahl von 100 berechnen, hier noch keine effiziente Lösung[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Fibonacci Zahl von 100 berechnen, hier effizienter gestaltete Lösung *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected 144, but got 233 (RationalTest.scala:202)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Fibonacci Zahl von 100 berechnen, Variante aus UE Muster[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tupel für UE3 1)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 13 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 489 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 5, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 5 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	test.RationalTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

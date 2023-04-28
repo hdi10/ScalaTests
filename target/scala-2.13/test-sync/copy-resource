@@ -1,0 +1,1 @@
+[[{"${BASE}/src/test/resources/log4j2.xmt":["${BASE}/target/scala-2.13/test-classes/log4j2.xmt"]},{"${BASE}/target/scala-2.13/test-classes/log4j2.xmt":["${BASE}/src/test/resources/log4j2.xmt"]}],{"${BASE}/src/test/resources/log4j2.xmt":{"file":"file:///home/hdi10/Desktop/PKDM_/Template_UND_Templatemuster/Uebung1/src/test/resources/log4j2.xmt","lastModified":1682368219371}}]
